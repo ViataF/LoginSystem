@@ -17,17 +17,17 @@ const ContactState = (props) => {
     contacts: [
       {
         id: 1,
-        type: "personal",
         name: "Ted Johnsen",
         email: "teddy@gmail.com",
         phone: "222-222-2222",
+        type: "personal",
       },
       {
         id: 2,
-        type: "professional",
         name: "Sarah Smith",
         email: "ssmith@gmail.com",
         phone: "111-111-1111",
+        type: "professional",
       },
       {
         id: 3,
@@ -47,7 +47,7 @@ const ContactState = (props) => {
 
   // Set Current contact
 
-  // Clea current contact
+  // Clear current contact
 
   // Update contact
 
