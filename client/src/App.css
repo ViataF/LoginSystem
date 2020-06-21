@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 /* Global Styles */
 :root {
@@ -16,10 +16,12 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
+  background-image: url(https://cdn.pixabay.com/photo/2020/06/18/08/52/planet-5312560_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #333;
 }
 
@@ -76,6 +78,9 @@ img {
 
 .text-dark {
   color: var(--dark-color);
+}
+.text-black {
+  color: black;
 }
 
 .text-center {
@@ -304,10 +309,10 @@ input {
   color: #888;
 }
 
-input[type='text'],
-input[type='email'],
-input[type='password'],
-input[type='date'],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
 select,
 textarea {
   display: block;
@@ -317,7 +322,7 @@ textarea {
   border: 1px solid #ccc;
 }
 
-input[type='submit'],
+input[type="submit"],
 button {
   font: inherit;
 }

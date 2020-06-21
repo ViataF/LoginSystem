@@ -49,11 +49,12 @@ const Login = (props) => {
   return (
     <div className="form-container">
       <h1>
-        Account <span className="text-primary">Login</span>
+        <span className="text-black">Account </span>
+        <span className="text-primary"> Login</span>
       </h1>
       <form onSubmit={onSubmit}>
         <div className="form-group">
-          <label htmlFor="email">Email Address</label>
+          <label htmlFor="email">Email Address: </label>
           <input
             type="email"
             name="email"
@@ -63,7 +64,7 @@ const Login = (props) => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">Password:</label>
           <input
             type="password"
             name="password"
